@@ -1,0 +1,123 @@
+.container{
+ width: 90%;
+ margin: auto;   
+}
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    height: 80px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    z-index: 4;
+}
+.main-section_active {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF;
+    background-color: #7434CA;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.clear-both {
+    clear: both;
+}
+.main-header_brand {
+    display: inline;
+    vertical-align: middle;
+}
+
+.main-header_brand img {
+    border-radius: 15px;
+    width: 4%;
+    border-radius: 50%;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation_items .active a {
+    color: #efb6ef;
+}
+
+.main-navigation_items {
+    user-select: none;
+}
+
+.main-navigation_item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation_item a {
+    color: #05364d;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+
+}
+
+.main-navigation_item a:hover,
+.main-navigation_item a:focus {
+    color: #efb6df;
+}
+
+.contact-info h1{
+  
+    margin-top: 100px;
+    color: #05364d;
+    font-size: 40px;
+
+}
+/* main section styels*/
+.form-text textarea{
+   color: black;
+   width: 100%;
+    height: 250px;
+   border: none;
+   border-radius: 5px;
+   resize: none;
+   border: 1px solid black;
+   margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.form-input input{
+width: 800px;
+}
+.footer-section{
+  background-color: rgb(36, 29, 29);
+  height: 300px;
+  text-align: center;
+}
+.footer-section img{
+    width: 75px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer-section  li{
+    display: inline-block;
+    color: #FFF;
+    margin: 5px;
+}
+.footer-section  a {
+    text-decoration: none;
+    margin: 5px;
+}
